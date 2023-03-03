@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /**
- * File: main.h 
- * Desc: Header file containing prototypes for all functions used in the 0x06. C - More pointers, arrays and strings directory
+ * File: main.h
+ * Desc: Header file containing prototypes for all functions used in 0x06
  */
 
 int _putchar(char c);
