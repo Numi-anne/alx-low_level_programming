@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - daetermine if n is negative, positive or zero
- * Return is 0 always (success)
- **/
+ * main - Entry point
+ * Description - determine if n is negative, positive or zero
+ * Return: 0 always (success)
+ */
 
 int main(void)
 {
