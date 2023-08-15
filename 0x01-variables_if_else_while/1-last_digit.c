@@ -1,22 +1,24 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* main - Entry point
+ * Descrption: find out if the last digit of n is greater than 5 , less than 6 , or equals 0
+ * Return (0) on success always
+ */
 
 int main(void)
 {
        	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	printf("n is %d \n", n);
-	/*Finding the last digit of n*/
-	int m =  n % 10;
-	
-	if (m > 5)
-	printf("The last digit of %d is %d and is grater than 5\n", n , m);
-	else if (m < 6)
-	printf("The last digit of %d is %d and is less than 6 and not 0\n", n , m);
-	else if (m == 0)
-	printf("The last digit of %d is %d and is 0\n", n , m);
+	/*Finding the last digit of n
+	 */
+
+	if ((n % 10) > 5)
+	printf("The last digit of %d is %d and is grater than 5\n", n , n % 10);
+	else if ((n % 10) < 6 && (n % 10) > 0)
+	printf("The last digit of %d is %d and is less than 6 and not 0\n", n , n % 10);
+	else if (n == 0)
+	printf("The last digit of %d is %d and is 0\n", n , n % 10);
 	return (0);
 }
