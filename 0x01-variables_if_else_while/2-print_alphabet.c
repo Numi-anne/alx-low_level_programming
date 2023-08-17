@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
- * main - Entry point
- * Description: 'print alphabeth in lower case'
+ * main - print alphabeth in lower case
  * Return: Always 0 (Success)
  */
 
