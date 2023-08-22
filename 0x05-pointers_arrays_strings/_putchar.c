@@ -3,12 +3,12 @@
 
 /**
  * _putchar - writes out the character c to stdout
- * @c: the charcter to print
- * Return = (1) on sucess always
- * on error, -i is returned and errno is set appropriately
+ * @C: the charcter to print
+ * Return: (1) on sucess always
+ * On error, -1 is returned and errno is set appropriately
  */
 
-int _putchar(char c);
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
