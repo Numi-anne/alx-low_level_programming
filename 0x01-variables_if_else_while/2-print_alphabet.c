@@ -1,6 +1,9 @@
 #include <stdio.h>
-/*
+
+/**
  * main - print alphabeth in lower case
+ * Description: printing the alphabeth
+ *
  * Return: Always 0 (Success)
  */
 
